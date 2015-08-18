@@ -1,0 +1,29 @@
+@font-face {
+  font-family: ElektraLightPro; /* Гарнитура шрифта */
+  src: url(../fonts/Elektra_Light_Pro.otf); /* Путь к файлу со шрифтом */
+}
+
+
+
+$headerSecondLineBackgorund : #E2EBF3;
+
+
+@mixin Indent9999 ($negativeIdent:-9999px){
+text-indent:$negativeIdent;
+}
+
+
+@import "../bower/normalize-scss/_normalize";
+@import "general";
+@import "header";
+
+
+
+
+.b-footer {
+  background-color: #222;
+  color: #ddd;
+  a {
+    color: #ddd;
+  }
+}

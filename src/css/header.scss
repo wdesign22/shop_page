@@ -1,0 +1,118 @@
+/* header */
+
+.b-header {
+  background-color: aquamarine;
+}
+
+.b-address {
+  min-height: 42px;
+  background-color: #44616E;
+}
+
+.b-social-min {
+  margin-left: 101px;
+  width: 378px;
+  display: inline-block;
+}
+
+.b-social-min__list {
+  margin: 0;
+  padding: 0;
+}
+
+.b-social-min__list-item {
+  margin-top: 8px;
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  //background-color: yellow;
+  //font-size: 0;
+  // проблема. Сдвигает все разом
+}
+
+.b-social-min__link_vk {
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/sprite.png");
+  background-position: 340px 201px
+}
+
+.b-social-min__link_fb {
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/sprite.png");
+  background-position: 309px 201px
+}
+
+.b-social-min__link_tw {
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/sprite.png");
+  background-position: 278px 201px
+}
+
+.b-social-min__list-item_vk {
+
+}
+
+.b-social-min__list-item_fb {
+
+}
+
+.b-social-min__list-item_tw {
+
+}
+
+.b-social-min__link {
+  display: block;
+  @include Indent9999();
+}
+
+// как лучше сделать расстояние между всеми этими элементами
+.b-location {
+  margin-top:10px;
+  height: 24px;
+  width: 433px;
+  display: inline-block;
+  font: 12px ElektraLightPro;
+  color: #fff;
+  line-height:0;
+}
+
+.b-location__glob {
+  width: 16px;
+  height: 24px;
+  background-image: url("../img/sprite.png");
+  background-position: 373px 202px;
+  display: inline-block;
+
+
+}
+
+.b-tel {
+  width: 230px;
+  display: inline-block;
+}
+
+.b-logo {
+}
+
+.b-logo__link {
+  display: block;
+  max-width: 199px;
+
+}
+
+.b-logo__image {
+
+}
+
+.b-logo__link-text {
+  display: block;
+  @include Indent9999();
+}
+
+.b-second-line {
+  min-height: 98px;
+  background-color: $headerSecondLineBackgorund;
+}
