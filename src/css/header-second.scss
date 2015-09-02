@@ -1,0 +1,115 @@
+/* header - second */
+
+.b-second-line {
+  min-height: 98px;
+  background-color: $headerSecondLineBackground;
+}
+
+.b-inside-wrapper-second {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 98px;
+}
+
+.b-logo {
+  position: absolute;
+  max-width: 199px;
+  left: 101px;
+  top: 24px;
+}
+
+.b-logo__link {
+  display: block;
+}
+
+.b-logo__image {
+  max-width: 199px;
+  max-heigth: 57px;
+  display: block;
+
+}
+
+.b-logo__link-text {
+  display: block;
+  @include Indent9999();
+}
+
+.b-search {
+  min-height: 35px;
+  position: absolute;
+  left: 360px;
+  top: 34px;
+
+}
+
+.b-search__form {
+  @include clear-fix;
+
+}
+
+.b-search__input {
+  float: left;
+
+  border: 1px solid $colorSearch;
+  color: $colorSearch;
+  padding: 8px;
+  font-size: 15px;
+  line-heght: 17px;
+  font: ElektraLightPro;
+  width: 260px-8px*2;
+}
+
+.b-search__button {
+  float: left;
+  height: 35px;
+  border: 0 none;
+  background-color: $mainColorBLue;
+  color: white;
+  font: ElektraLightPro;
+  padding: 0 13px;
+  margin: 0;
+  font-size: 17px;
+  line-heght: 17px;
+  font-weight: 600;
+}
+
+.b-short-nav {
+  position: absolute;
+  right: 171px;
+  top: 34px;
+}
+
+.b-short-nav__menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.b-short-nav__menu-item {
+  display: inline-block;
+  margin-right: 17px;
+  min-height: 42px;
+}
+
+.b-short-nav__menu-link {
+  font-family: ElektraLightPro;
+  font-size: 13px;
+  display: block;
+  color: $mainColorBLue;
+  height: 32px;
+  vertical-align: bottom;
+  padding-top: 10px; // нормально так или через vertical align
+}
+
+a:hover.b-short-nav__menu-link {
+  color: #613993;
+}
+
+/* для корзины
+a:hover.b-short-nav__menu-link{
+  background-color: white;
+  color:#3D5F7F;
+}
+*/
+

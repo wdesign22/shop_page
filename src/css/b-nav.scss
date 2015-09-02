@@ -1,0 +1,26 @@
+.b-nav__wrapper{
+  width:100%;
+  min-height: 40px;
+  border-bottom: 1px solid #E3E3E3;
+  background-color: #F7F7F7;
+
+}
+
+.b-nav{
+  width: 1200px;
+  margin: 0 auto;
+
+ // TODO вторую линию
+}
+.b-nav__menu{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.b-nav__menu-item{
+  display: inline-block;
+}
+.b-nav__menu-link{
+
+}

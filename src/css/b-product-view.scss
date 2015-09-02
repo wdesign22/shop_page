@@ -1,0 +1,28 @@
+.b-product-view {
+  @include clear-fix;
+  
+}
+
+
+.b-slider {
+  background-color: yellow;
+  width: 300px;
+  height: 350px;
+  float: left;
+  margin-right:30px;  // это правильно?
+}
+
+.b-product-title{
+  color: $mainColorBLue;
+  min-height: 30px;
+}
+
+.b-params {
+  min-height: 350px;
+  width:100%;
+  td{
+    font-size: 14px;
+    line-height: 16px;
+    padding:10px;
+  }
+}

@@ -3,27 +3,47 @@
   src: url(../fonts/Elektra_Light_Pro.otf); /* Путь к файлу со шрифтом */
 }
 
-
-
-$headerSecondLineBackgorund : #E2EBF3;
-
-
-@mixin Indent9999 ($negativeIdent:-9999px){
-text-indent:$negativeIdent;
+@font-face {
+  font-family: ElektraLightProMedium; /* Гарнитура шрифта */
+  src: url(../fonts/Elektra_Medium_Pro.ttf); /* Путь к файлу со шрифтом */
 }
 
+$headerSecondLineBackground: #E2EBF3;
+$mainColorBLue: #00B9FE;
+$colorSearch: #DCE6F0;
+
+@mixin Indent9999($negativeIdent:-9999px) {
+  text-indent: $negativeIdent;
+}
+
+@mixin clear-fix() {
+  &:before,
+  &:after {
+    content: "";
+    display: table;
+  }
+  &:after {
+    clear: both;
+  }
+}
 
 @import "../bower/normalize-scss/_normalize";
 @import "general";
-@import "header";
+@import "header-first";
+@import "header-second";
+@import "b-nav";
+@import "b-product-view";
+@import "b-footer";
 
+.b-main {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 350px;
+}
 
-
-
-.b-footer {
-  background-color: #222;
-  color: #ddd;
-  a {
-    color: #ddd;
-  }
+.b_basket-menu {
+  display: none;
+}
+.b-product {
+  min-height: 273px;
 }

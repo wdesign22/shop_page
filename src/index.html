@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <title>Page Shop Loftschool </title>
     <link rel="stylesheet" href="css/main.css">
+    <script type="text/javascript" src="bower/jquery/dist/jquery.big.js"></script>
+
 </head>
 <body>
+
 
 <div class="b-wrapper">
     <header class="b-header">
         <address class="b-address">
-            <div class="b-inside-wrapper">
+            <div class="b-inside-wrapper-address">
+                <div class="green_line"></div>
                 <div class="b-social-min">
                     <ul class="b-social-min__list">
                         <li class="b-social-min__list-item"><a href="#" class="b-social-min__link b-social-min__link_vk ">VK</a></li>
@@ -18,32 +22,59 @@
                         <li class="b-social-min__list-item"><a href="#" class="b-social-min__link b-social-min__link_tw">TW</a></li>
                     </ul>
                 </div>
-                <div class="b-location"><div class="b-location__glob"></div> г. Москва, ул. Новая 246, офис 214</div>
+                <div class="b-location">
+                    <div class="b-location__glob"></div>
+                    <div class="b-location__text">г. Москва, ул. Новая 246, офис 214</div>
+                </div>
                 <div class="b-tel"><span class="b-tel__prefix">+7 (921)</span> 322 12 32</div>
             </div>
         </address>
 
         <div class="b-second-line">
-            <div class="b-inside-wrapper">
+            <div class="b-inside-wrapper-second">
+
                 <div class="b-logo">
                     <a href="#" class="b-logo__link">
                         <img src="img/logo.png" alt="logo ЭпплShop" class="b-logo__image">
                         <span class="b-logo__link-text">logo ЭпплShop</span>
                     </a>
                 </div>
+
+
+                <div class="b-search">
+                    <form action="" class="b-search__form">
+                        <input type="text" class="b-search__input" value="iMac 27 дюймов ">
+                        <button type="button" class="b-search__button">Поиск</button>
+                    </form>
+                </div>
+
+                <nav class="b-short-nav">
+                    <ul class="b-short-nav__menu">
+                        <li class="b-short-nav__menu-item"><a href="#" class="b-short-nav__menu-link">Карта проезда</a></li>
+                        <li class="b-short-nav__menu-item"><a href="#" class="b-short-nav__menu-link">История заказов</a></li>
+                        <li class="b-short-nav__menu-item"><a href="#" class="b-short-nav__menu-link">Корзина</a></li>
+
+                    </ul>
+                </nav>
             </div>
+
+
         </div>
-        <nav class="b-nav">
-            <ul class="b-nav__menu">
-                <li class="b-nav__menu-item">Мобильные телефоны</li>
-                <li class="b-nav__menu-item">Планшеты</li>
-                <li class="b-nav__menu-item">MP3 плейеры</li>
-                <li class="b-nav__menu-item">Персональные компьютеры</li>
-                <li class="b-nav__menu-item">Ноутбуки</li>
-            </ul>
-        </nav>
+
 
     </header>
+    <div class="b-nav__wrapper">
+        <nav class="b-nav">
+            <ul class="b-nav__menu">
+                <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">Мобильные телефоны</a></li>
+                <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">Планшеты</a></li>
+                <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">MP3 плейеры</a></li>
+                <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">Персональные компьютеры</a></li>
+                <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">Ноутбуки</a></li>
+            </ul>
+        </nav>
+    </div>
+
 
     <main class="b-main">
 
@@ -54,69 +85,72 @@
                 <li class="b-breadcrumb__item">iPad Air + Cellular 128 gb - Silver</li>
             </ul>
         </div>
-        <aside class="b-slider">
+        <div class="b-product-view">
+            <aside class="b-slider">
 
-        </aside>
-        <aside class="b-params">
-            <div class="b-params__header">
-                <ul class="b-params__list">
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Артикул</div>
-                        <div class="b-param__value-param">42787825</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Опция</div>
-                        <div class="b-param__value-param">включена</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Цвет</div>
-                        <div class="b-param__value-param">серебристый</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Размер</div>
-                        <div class="b-param__value-param">1280*1245*90</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Артикул</div>
-                        <div class="b-param__value-param">42787825</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Опция</div>
-                        <div class="b-param__value-param">Включена</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Цвет</div>
-                        <div class="b-param__value-param">серебристый</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Размер</div>
-                        <div class="b-param__value-param">1280*1245*90</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Артикул</div>
-                        <div class="b-param__value-param">42787825</div>
-                    </li>
-                    <li class="b-params__param">
-                        <div class="b-param__name-param">Опция</div>
-                        <div class="b-param__value-param">Включена</div>
-                    </li>
+            </aside>
+            <div class="b-product-title">iPad Air + Cellular 128 gb - Silver</div>
+            <aside class="b-params">
+                <table>
+                    <tr>
+                        <td>Артикул</td>
+                        <td>42787825</td>
+                    </tr>
+                    <tr>
+                        <td>Опция</td>
+                        <td>включена</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>серебристый</td>
+                    </tr>
+                    <tr>
+                        <td>Размер</td>
+                        <td>1280*1245*90</td>
+                    </tr>
+                    <tr>
+                        <td>Артикул</td>
+                        <td>42787825</td>
+                    </tr>
+                    <tr>
+                        <td>Опция</td>
+                        <td>включена</td>
+                    </tr>
+                    <tr>
+                        <td>Цвет</td>
+                        <td>серебристый</td>
+                    </tr>
+                    <tr>
+                        <td>Размер</td>
+                        <td>1280*1245*90</td>
+                    </tr>
 
 
-                </ul>
-            </div>
-        </aside>
-        <article class="b-product">
-            <h1 class="b-product__title"></h1>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur at beatae commodi debitis eaque eius, et expedita fugit illum
-            in inventore magnam neque nesciunt quaerat quas sapiente. Aut autem consectetur dolore ipsa ipsam minus odit officiis, placeat reiciendis
-            rerum sint, voluptates! Ad animi aspernatur deleniti dolor, doloremque doloribus facilis, harum nobis quae quo ratione tempore velit
-            voluptatum? Facilis ipsa modi nisi, nobis quam quo repellat reprehenderit? Ab assumenda beatae corporis culpa delectus, eum exercitationem
-            facilis incidunt iusto laborum magnam neque nulla perferendis provident, quae, quia quidem reprehenderit temporibus! Amet dicta doloribus
-            laborum quas reprehenderit similique unde. Debitis, est, sequi.
+                </table>
+
+            </aside>
+
+        </div>
+
+        <article class="b-product  ">
+            <h1 class="b-product__title">Заголовок</h1>
+
             <div class="b-product__text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid aspernatur at beatae commodi debitis eaque eius, et expedita fugit
+                illum
+                in inventore magnam neque nesciunt quaerat quas sapiente. Aut autem consectetur dolore ipsa ipsam bigus odit officiis, placeat
+                reiciendis
+                rerum sint, voluptates! Ad animi aspernatur deleniti dolor, doloremque doloribus facilis, harum nobis quae quo ratione tempore velit
+                voluptatum? Facilis ipsa modi nisi, nobis quam quo repellat reprehenderit? Ab assumenda beatae corporis culpa delectus, eum
+                exercitationem
+                facilis incidunt iusto laborum magnam neque nulla perferendis provident, quae, quia quidem reprehenderit temporibus! Amet dicta
+                doloribus
+                laborum quas reprehenderit similique unde. Debitis, est, sequi.
+
 
             </div>
         </article>
+
 
     </main>
 
@@ -124,58 +158,77 @@
 
 
 <footer class="b-footer">
-    <div class="b-logo"><img src="" alt="" class="b-logo__image"></div>
+    <div class="b-footer__wrapper">
 
-    <dialog class="b_basket-menu">
-        <ul class="basket-menu__list">
-            <li class="b-basket-menu__item"><a href="" class="b-basket-menu__link"></a></li>
-            <li class="b-basket-menu__item"><a href="" class="b-basket-menu__link"></a></li>
-            <li class="b-basket-menu__item"><a href="" class="b-basket-menu__link"></a></li>
-        </ul>
-    </dialog>
+        <div class="b-logo-down">
+            <a href="b-logo-down__link">
+                <img src="img/logo_down.png" alt="" class="b-logo-down__image">
+                <span class="b-logo-down__link-text">logo ЭпплShop</span>
+            </a>
+        </div>
 
-    <nav class="b-footer-links">
-        <ul class="b-footer-links__list     ">
-            <li class="b-footer-links__column">
-                <ul class="b-footer-column">
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">О магазине</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">О нас</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Наши цены</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Наши скидки</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Акции</a></li>
-                </ul>
-            </li>
-            <li class="b-footer-links__column">
-                <ul class="b-footer-column">
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Каталог</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Смартфоны</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Планшеты</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Компьютеры</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Аксессуары</a></li>
-                </ul>
-            </li>
-            <li class="b-footer-links__column">
-                <ul class="b-footer-column">
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Контакты</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Телефоны</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Адреса</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Карта проезда</a></li>
-                    <li class="b-footer-column_item"><a href="" class="b-footer-column_link">Обратная связь</a></li>
-                </ul>
-            </li>
+        <dialog class="b_basket-menu">
+            <ul class="basket-menu__list">
+                <li class="b-basket-menu__item"><a href="" class="b-basket-menu__link"></a></li>
+                <li class="b-basket-menu__item"><a href="" class="b-basket-menu__link"></a></li>
+                <li class="b-basket-menu__item"><a href="" class="b-basket-menu__link"></a></li>
+            </ul>
+        </dialog>
 
-        </ul>
-    </nav>
-    <div class="b-smartphones">
-        <ul class="b-smartphones__list">
-            <li class="b-smartphones__item"><a href="" class="b-smartphones__link"><img src="" alt="" class="b-smartphones__image"></a></li>
-            <li class="b-smartphones__item"><a href="" class="b-smartphones__link"><img src="" alt="" class="b-smartphones__image"></a></li>
-        </ul>
+        <nav class="b-footer-links">
+            <ul class="b-footer-links__list">
+                <li class="b-footer-links__column">
+                    <ul class="b-footer-column">
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">О магазине</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">О нас</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Наши цены</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Наши скидки</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Акции</a></li>
+                    </ul>
+                </li>
+                <li class="b-footer-links__column">
+                    <ul class="b-footer-column">
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Каталог</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Смартфоны</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Планшеты</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Компьютеры</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Аксессуары</a></li>
+                    </ul>
+                </li>
+                <li class="b-footer-links__column">
+                    <ul class="b-footer-column">
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Контакты</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Телефоны</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Адреса</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Карта проезда</a></li>
+                        <li class="b-footer-column_item"><a href="" class="b-footer-column__link">Обратная связь</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="app-soc">
+
+            <div class="b-smartphones">
+                <ul class="b-smartphones__list">
+                    <li class="b-smartphones__item"><a href="" class="b-smartphones__link b-smartphones__link_apple">Доступно в Apple Store</a></li>
+                    <li class="b-smartphones__item"><a href="" class="b-smartphones__link b-smartphones__link_google">Доступно в Google Play</a></li>
+                </ul>
+            </div>
+
+
+            <div class="b-social-big">
+                <ul class="b-social-big__list">
+                    <li class="b-social-big__list-item"><a href="#" class="b-social-big__link b-social-big__link_vk ">VK</a></li>
+                    <li class="b-social-big__list-item"><a href="#" class="b-social-big__link b-social-big__link_fb">FB</a></li>
+                    <li class="b-social-big__list-item"><a href="#" class="b-social-big__link b-social-big__link_tw">TW</a></li>
+                </ul>
+            </div>
+
+            
+        </div>
+
     </div>
-    <div class="socials">
-
-    </div>
-
 </footer>
 
 <!-- background-size  для разных картинок -->

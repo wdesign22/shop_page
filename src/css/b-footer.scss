@@ -1,0 +1,166 @@
+.b-footer__wrapper {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 228px;
+  position: relative;
+}
+
+.b-logo-down {
+  position: absolute;
+  left: 100px;
+  top: 99px;
+  min-height: 39px;
+
+}
+
+.b-logo-down__link {
+  display: block;
+}
+
+.b-logo-down__image {
+
+}
+
+.b-logo-down__link-text {
+  display: block;
+  @include Indent9999();
+}
+
+.b-footer {
+  background-image: url("../img/footer-bg.jpg");
+  color: #ddd;
+  a {
+    color: #ddd;
+  }
+}
+
+.b-footer-links {
+  padding: 60px 0 0 0;
+  min-height: 150px;
+  width: 510px;
+  margin: 0 auto 0 359px;
+}
+
+.b-footer-links__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.b-footer-links__column {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4px;
+  overflow: hidden;
+  width: 163px;
+
+}
+
+.b-footer-column {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.b-footer-column_item {
+
+}
+
+.b-footer-column__link {
+
+}
+
+.app-soc {
+  position: absolute;
+  right: 100px;
+  top: 71px;
+  width: 186px;
+  min-height: 101px;
+  //background-color: #00B9FE;
+}
+
+.b-smartphones {
+  min-height: 32px;;
+  margin-bottom: 26px;
+
+}
+
+.b-smartphones__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.b-smartphones__item {
+  display: inline-block;
+  margin-bottom: 5px;
+
+}
+
+.b-smartphones__link {
+  display: block;
+  width: 90px;
+  height: 32px;
+  //background-color: #3059FE;
+  @include Indent9999();
+  //@include Indent9999();
+
+}
+
+.b-smartphones__link_apple {
+  width: 90px;
+  height: 32px;
+  background-image: url("../img/sprite.png");
+  background-position: 95px 134px;
+}
+
+.b-smartphones__link_google {
+  background-image: url("../img/sprite.png");
+  background-position: 95px 169px;
+}
+
+.b-social-big {
+
+}
+
+.b-social-big__list {
+  margin: 0;
+  padding: 0;
+}
+
+.b-social-big__list-item {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-left:12px;
+  &:first-child{
+    margin-left:0px;
+  }
+}
+
+.b-social-big__link {
+  width: 40px;
+  height: 40px;
+
+  @include Indent9999();
+  display: block;
+
+}
+
+.b-social-big__link_vk {
+  background-image: url("../img/sprite.png");
+  background-position: 146px 247px;
+
+}
+
+.b-social-big__link_fb {
+  background-image: url("../img/sprite.png");
+  background-position: 93px 247px;
+
+}
+
+.b-social-big__link_tw {
+  background-image: url("../img/sprite.png");
+  background-position: 43px 247px;
+}

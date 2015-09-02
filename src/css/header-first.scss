@@ -1,0 +1,115 @@
+/* header - first */
+
+
+.b-inside-wrapper-address {
+  width: 1200px;
+  margin: 0 auto;
+  min-height: 41px;
+  position: relative;
+}
+
+.green_line{
+  position:absolute;
+  width: 1px;
+  height: 41px;
+  top: 0;
+  left: 0;
+  background-color: red;
+}
+
+.b-address {
+  min-height: 41px;
+  background-color: #44616E;
+}
+
+.b-social-min {
+  position: absolute;
+  width: 140px;
+  top: 7px;
+  left: 100px;
+
+}
+
+.b-social-min__list {
+  margin: 0;
+  padding: 0;
+}
+
+.b-social-min__list-item {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+}
+
+.b-social-min__link_vk {
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/sprite.png");
+  background-position: 89px 201px;
+}
+
+.b-social-min__link_fb {
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/sprite.png");
+  background-position: 309px 201px;
+}
+
+.b-social-min__link_tw {
+  width: 26px;
+  height: 26px;
+  background-image: url("../img/sprite.png");
+  background-position: 279px 201px;
+}
+
+
+.b-social-min__link {
+  display: block;
+  @include Indent9999();
+}
+
+
+.b-location {
+  position: absolute;
+  top: 8px;
+  left: 479px;
+  margin: 0 auto;
+  height: 24px;
+  min-width: 400px;
+  font: 12px ElektraLightPro;
+  color: #fff;
+}
+
+// нормально что так сделано, внутри?
+.b-location__glob {
+  width: 16px;
+  height: 22px;
+  background: url("../img/sprite.png") 373px 201px;
+  display: inline-block;
+}
+
+.b-location__text {
+  padding-left:7px;
+  padding-top:5px;
+  //padding-bottom:5px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+.b-tel {
+  position:absolute;
+  right:110px;
+  top:9px;
+  color: white;
+  font: 23px ElektraLightPro;
+
+}
+
+.b-tel__prefix {
+
+  font: 13px ElektraLightProMedium;
+  color: $mainColorBLue;
+  vertical-align: super;
+}
+
