@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <title>Page Shop Loftschool </title>
     <link rel="stylesheet" href="css/main.css">
-    <script type="text/javascript" src="bower/jquery/dist/jquery.big.js"></script>
-
+    <script type="text/javascript" src="bower/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower/bxslider-4/dist/jquery.bxslider.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+    <script type="text/javascript" src="js/slideShow.js"></script>
 </head>
 <body>
-
 
 <div class="b-wrapper">
     <header class="b-header">
@@ -43,7 +44,7 @@
 
                 <div class="b-search">
                     <form action="" class="b-search__form">
-                        <input type="text" class="b-search__input" value="iMac 27 дюймов ">
+                        <input type="text" class="b-search__input" value="iMac 27 дюймов">
                         <button type="button" class="b-search__button">Поиск</button>
                     </form>
                 </div>
@@ -53,7 +54,6 @@
                         <li class="b-short-nav__menu-item"><a href="#" class="b-short-nav__menu-link">Карта проезда</a></li>
                         <li class="b-short-nav__menu-item"><a href="#" class="b-short-nav__menu-link">История заказов</a></li>
                         <li class="b-short-nav__menu-item"><a href="#" class="b-short-nav__menu-link">Корзина</a></li>
-
                     </ul>
                 </nav>
             </div>
@@ -63,8 +63,9 @@
 
 
     </header>
-    <div class="b-nav__wrapper">
-        <nav class="b-nav">
+
+    <nav class="b-nav">
+        <div class="b-nav__wrapper">
             <ul class="b-nav__menu">
                 <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">Мобильные телефоны</a></li>
                 <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">Планшеты</a></li>
@@ -72,57 +73,72 @@
                 <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">Персональные компьютеры</a></li>
                 <li class="b-nav__menu-item"><a href="#" class="b-nav__menu-link">Ноутбуки</a></li>
             </ul>
-        </nav>
-    </div>
+        </div>
+    </nav>
 
 
     <main class="b-main">
 
         <div class="b-breadcrumb">
             <ul class="b-breadcrumb__crumbs">
-                <li class="b-breadcrumb__item">Главная</li>
-                <li class="b-breadcrumb__item">Каталог</li>
-                <li class="b-breadcrumb__item">iPad Air + Cellular 128 gb - Silver</li>
+                <li class="b-breadcrumb__item"><a href="#" class="b-breadcrumb__link">Главная</a></li>
+                <li class="b-breadcrumb__item"><a href="#" class="b-breadcrumb__link">Каталог</a></li>
+                <li class="b-breadcrumb__item"><a href="#" class="b-breadcrumb__link">iPad Air + Cellular 128 GB - Silver</a></li>
             </ul>
         </div>
-        <div class="b-product-view">
+        <div class="b-product-view ">
             <aside class="b-slider">
 
+                <div class="b-slider__big-picture">
+                    <img src="img/slider-big.jpg" alt="">
+                </div>
+
+                <div class="b-slider__slidershow">
+                    <ul class="b-slider__ul">
+                        <li class="b-slider__li"><img src="img/slider-small1.jpg" alt=""></li>
+                        <li class="b-slider__li"><img src="img/slider-small2.jpg" alt=""></li>
+                        <li class="b-slider__li"><img src="img/slider-small1.jpg" alt=""></li>
+                        <li class="b-slider__li"><img src="img/slider-small3.jpg" alt=""></li>
+                    </ul>
+                </div>
+
             </aside>
-            <div class="b-product-title">iPad Air + Cellular 128 gb - Silver</div>
+
             <aside class="b-params">
-                <table>
+                <div class="b-product-title">iPad Air + Cellular 128 gb - Silver</div>
+
+                <table class="b-params__table">
                     <tr>
-                        <td>Артикул</td>
-                        <td>42787825</td>
+                        <td class="b-params__table-left">Артикул</td>
+                        <td class="b-params__table-right">42787825</td>
                     </tr>
                     <tr>
-                        <td>Опция</td>
-                        <td>включена</td>
+                        <td class="b-params__table-left ">Опция</td>
+                        <td class="b-params__table-right ">включена</td>
                     </tr>
                     <tr>
-                        <td>Цвет</td>
-                        <td>серебристый</td>
+                        <td class="b-params__table-left">Цвет</td>
+                        <td class="b-params__table-right">серебристый</td>
                     </tr>
                     <tr>
-                        <td>Размер</td>
-                        <td>1280*1245*90</td>
+                        <td class="b-params__table-left ">Размер</td>
+                        <td class="b-params__table-right ">1280*1245*90</td>
                     </tr>
                     <tr>
-                        <td>Артикул</td>
-                        <td>42787825</td>
+                        <td class="b-params__table-left">Артикул</td>
+                        <td class="b-params__table-right">42787825</td>
                     </tr>
                     <tr>
-                        <td>Опция</td>
-                        <td>включена</td>
+                        <td class="b-params__table-left ">Опция</td>
+                        <td class="b-params__table-right ">включена</td>
                     </tr>
                     <tr>
-                        <td>Цвет</td>
-                        <td>серебристый</td>
+                        <td class="b-params__table-left">Цвет</td>
+                        <td class="b-params__table-right">серебристый</td>
                     </tr>
                     <tr>
-                        <td>Размер</td>
-                        <td>1280*1245*90</td>
+                        <td class="b-params__table-left ">Размер</td>
+                        <td class="b-params__table-right ">1280*1245*90</td>
                     </tr>
 
 
@@ -225,7 +241,7 @@
                 </ul>
             </div>
 
-            
+
         </div>
 
     </div>

@@ -11,6 +11,7 @@
 $headerSecondLineBackground: #E2EBF3;
 $mainColorBLue: #00B9FE;
 $colorSearch: #DCE6F0;
+$mainColor:#5C7B98;
 
 @mixin Indent9999($negativeIdent:-9999px) {
   text-indent: $negativeIdent;
@@ -27,6 +28,7 @@ $colorSearch: #DCE6F0;
   }
 }
 
+
 @import "../bower/normalize-scss/_normalize";
 @import "general";
 @import "header-first";
@@ -34,7 +36,11 @@ $colorSearch: #DCE6F0;
 @import "b-nav";
 @import "b-product-view";
 @import "b-footer";
+@import "b-breadcrumb";
 
+body{
+  color:$mainColor;
+}
 .b-main {
   width: 1200px;
   margin: 0 auto;

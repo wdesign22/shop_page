@@ -10,6 +10,8 @@
   left: 100px;
   top: 99px;
   min-height: 39px;
+  max-height: 39px;
+  max-width: 139px;
 
 }
 
@@ -61,10 +63,13 @@
   padding: 0;
   list-style: none;
 
+
 }
 
 .b-footer-column_item {
-
+  &:first-child{
+    font-weight: bold;
+  }
 }
 
 .b-footer-column__link {

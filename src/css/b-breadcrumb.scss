@@ -1,0 +1,39 @@
+.b-breadcrumb {
+
+  min-height: 30px;
+
+  line-height: 27px;
+  font-size: 14px;
+
+  margin-bottom: 18px;
+  margin-left: 101px;
+
+  font-family: ElektraLightPro;
+}
+
+.b-breadcrumb__crumbs {
+  margin: 0;
+  padding: 0;
+  display-list: none;
+}
+
+.b-breadcrumb__item {
+  display: inline-block;
+  &:after {
+    content: " >";
+  }
+  &:last-child {
+    a {
+      text-decoration: none;
+      color: $mainColor;
+    }
+    &:after {
+      content: "";
+    }
+  }
+}
+
+.b-breadcrumb__link {
+  color: $mainColorBLue;
+
+}

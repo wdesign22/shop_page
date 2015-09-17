@@ -1,8 +1,6 @@
 .b-product-view {
   @include clear-fix;
-  
 }
-
 
 .b-slider {
   background-color: yellow;
@@ -12,17 +10,69 @@
   margin-right:30px;  // это правильно?
 }
 
+.b-slider__big-picture{
+  width: 300px;
+  min-height: 238px;
+  img{
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+}
+
+
 .b-product-title{
   color: $mainColorBLue;
   min-height: 30px;
 }
 
-.b-params {
-  min-height: 350px;
-  width:100%;
-  td{
-    font-size: 14px;
-    line-height: 16px;
-    padding:10px;
+.b-slider__slidershow{
+  position: relative;
+  pading-left:30px;
+  .bx-wrapper{
+    margin: 0 auto;
+  }
+  .bx-prev, .bx-next{
+    text-decoration: none;
+    display: block;
+    position:absolute;
+    top:50%;
+    background-image: url("../img/sprite.png");
+    width:22px - 6px;
+    height: 34px;
+    margin-top: -8px ;
+    color:#fff;
+    line-height: 34px;
+
+  }
+  .bx-prev{
+    //background-color: #00f;
+    background-position: -43px -5px ;
+    left:0px;
+    padding-left: 6px;
+  }
+  .bx-next{
+   // background-color: #f0f;
+    right:0;
+    padding-left: 6px;
+    background-position: -72px -5px;
   }
 }
+
+
+
+
+.b-params {
+  min-height: 350px;
+  width:444px;
+  float:right;
+  margin-right:243px;
+  tr:nth-child(even){
+    background-color: #EEF2F4;
+
+  }
+}
+
+.b-params__table-left, .b-params__table-right{
+width:255px;
+}
+
